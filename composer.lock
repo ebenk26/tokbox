@@ -53,7 +53,7 @@
             "time": "2015-04-29 05:52:18"
         },
         {
-            "name": "guzzle/guzzle",
+            "name": "guzzlehttp/guzzle",
             "version": "v3.9.3",
             "source": {
                 "type": "git",
@@ -208,7 +208,7 @@
             },
             "require": {
                 "aoberoi/json-works": "~1.0",
-                "guzzle/guzzle": "~3.7",
+                "guzzlehttp/guzzle": "~3.7",
                 "php": ">=5.0.0"
             },
             "require-dev": {
@@ -249,7 +249,7 @@
             "time": "2015-04-30 15:01:40"
         },
         {
-            "name": "slim/http",
+            "name": "slim/slim",
             "version": "4.4.0",
             "source": {
                 "type": "git",
@@ -263,7 +263,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "5.4.0"
             },
             "suggest": {
                 "ext-mcrypt": "Required for HTTP cookie encryption",
